@@ -1,5 +1,5 @@
 # Browser Logging Lambda
-A simple lambda that will log any exceptions/requests sent to it, deploy with a Lambda URL https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html.
+A simple lambda that will log any exceptions/requests sent to it, deploy with a Lambda URL and cloudwatch role https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html.
 
 In your browser javascript app, modify the window.onerror or add an event listener. Make a https call to the lambda to log the exception. This stack overflow has some examples: https://stackoverflow.com/questions/5328154/catch-all-javascript-errors-and-send-them-to-server
 
